@@ -1,0 +1,105 @@
+
+
+/*STYLES*/
+
+/**BODY*/
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+}
+
+.predict-form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+}
+/**TEXT*/
+h1 {
+    text-align: center;
+    color: #BB86FC;
+}
+
+/**FORM*/
+.predict-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.predict-form .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #BB86FC;
+}
+
+.predict-form .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #E0E0E0;
+}
+
+/**SUBMITBTN**/
+
+.predict-form .submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #03DAC6;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.predict-form .submit-button:hover {
+    background-color: #018786;
+}
+
+.prediction-result {
+    margin-top: 2rem;
+    text-align: center;
+    color: #03DAC6;
+}
+
+.predict-form .form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #E0E0E0;
+}
+
+/**RELOADBTN**/
+
+.reload-button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #BB86FC;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.reload-button:hover {
+    background-color: #9c4dcc;
+}
+
+.reload-button svg {
+    margin-right: 5px;
+}
