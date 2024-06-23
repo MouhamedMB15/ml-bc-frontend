@@ -56,7 +56,8 @@ const PredictForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const input = Object.values(formData).map(value => parseFloat(value));
-        axios.post('https://ml-breast-cancer.herokuapp.com/predict', { input })
+        axios.post('https://ml-breast-cancer-23717b91f72b.herokuapp.com/predict', { input })
+
 
             .then(response => {
                 setPrediction(response.data.prediction);
